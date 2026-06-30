@@ -1,0 +1,134 @@
+.stApp {
+    background-color: #0f1117;
+    background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 60px, rgba(58,134,255,0.04) 60px, rgba(58,134,255,0.04) 61px),
+        repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(58,134,255,0.04) 60px, rgba(58,134,255,0.04) 61px);
+}
+.stButton > button {
+    background: linear-gradient(135deg, #3a86ff, #8338ec) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+}
+.stButton > button:hover { opacity: 0.85 !important; }
+.stDownloadButton > button {
+    background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+}
+.stTextInput input {
+    background: rgba(255,255,255,0.95) !important;
+    border: 1px solid rgba(255,255,255,0.15) !important;
+    border-radius: 8px !important;
+    color: #000000 !important;
+    font-family: 'Courier New', monospace !important;
+    font-size: 0.8rem !important;
+    text-align: center !important;
+}
+.stTextArea textarea {
+    background: rgba(255,255,255,0.04) !important;
+    border: 1px solid rgba(255,255,255,0.12) !important;
+    border-radius: 10px !important;
+    color: #ffffff !important;
+    font-family: 'Courier New', monospace !important;
+    font-size: 0.8rem !important;
+}
+[data-testid="metric-container"] {
+    background: rgba(58,134,255,0.08) !important;
+    border: 1px solid rgba(58,134,255,0.2) !important;
+    border-radius: 12px !important;
+    padding: 1rem !important;
+}
+/* Keep expander background dark */
+[data-testid="stExpander"] {
+    background-color: #0f1117 !important;
+}
+[data-testid="stExpander"] > div {
+    background-color: #0f1117 !important;
+}
+.streamlit-expanderContent {
+    background-color: #0f1117 !important;
+}
+/* All general text white */
+p, span, div, label, li, h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] span,
+[data-testid="stMarkdownContainer"] li {
+    color: #ffffff !important;
+}
+[data-testid="stExpander"] p,
+[data-testid="stExpander"] span,
+[data-testid="stExpander"] div,
+[data-testid="stExpander"] label,
+[data-testid="stExpander"] li,
+[data-testid="stExpander"] h1,
+[data-testid="stExpander"] h2,
+[data-testid="stExpander"] h3 {
+    color: #ffffff !important;
+}
+.streamlit-expanderHeader p,
+.streamlit-expanderHeader span {
+    color: #ffffff !important;
+}
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] span,
+[data-testid="stSidebar"] label {
+    color: #ffffff !important;
+}
+small, caption, .caption {
+    color: rgba(255,255,255,0.6) !important;
+}
+/* White background elements get black text */
+[data-testid="stDataFrame"] span,
+[data-testid="stDataFrame"] div,
+[data-testid="stDataFrame"] p {
+    color: #000000 !important;
+}
+[data-baseweb="input"] input {
+    color: #000000 !important;
+    background: rgba(255,255,255,0.95) !important;
+}
+[data-baseweb="select"] div,
+[data-baseweb="select"] span {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+[data-testid="stSuccess"] p,
+[data-testid="stSuccess"] span {
+    color: #000000 !important;
+}
+[data-testid="stError"] p,
+[data-testid="stError"] span {
+    color: #000000 !important;
+}
+[data-testid="stWarning"] p,
+[data-testid="stWarning"] span {
+    color: #000000 !important;
+}
+[data-testid="stInfo"] p,
+[data-testid="stInfo"] span {
+    color: #000000 !important;
+}
+
+/* Keep expander header dark when open */
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] summary:hover,
+[data-testid="stExpander"] summary:focus,
+[data-testid="stExpander"] summary[aria-expanded="true"],
+[data-testid="stExpander"] summary[aria-expanded="false"] {
+    background-color: #0f1117 !important;
+    color: #ffffff !important;
+}
+[data-testid="stExpander"] summary p,
+[data-testid="stExpander"] summary span,
+[data-testid="stExpander"] summary div {
+    background-color: #0f1117 !important;
+    color: #ffffff !important;
+}
